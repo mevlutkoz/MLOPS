@@ -1,0 +1,20 @@
+Local repository ==> your local computer
+Remote repository ==> hosted on hosting service like github, gitlab, bitbucket, codecommit
+
+$git config --global --list ==> Returns the user.name
+										   user.email
+
+
+$git config --global user.name "mevlutkoz"
+$git config --global user.email "kozmevlut@gmail.com"
+$git config --global --list
+
+$git config --global init.defaultBracnh main ==> Default branchi main yapıyoruz, bazen master olarak kaydediliyor bunu istemiyoruz. 
+git config --global --list
+
+
+.git dosyası senin çalıştıgın yeri local repository yapar.
+git init command kullanarak o an ki çalıştıgımız yeri local repository yapabiliriz.
+$git init ==> oldugumuz yerde bunu çalıştırarak local repository yaptık($ls -a)
+Working Directory ==> contains a set of files that represent a version of the project
+
